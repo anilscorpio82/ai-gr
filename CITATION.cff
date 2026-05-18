@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use AI-GR, please cite both the working paper and this reference implementation."
+type: software
+title: "AI-GR — The Agentic Governance Ribbon"
+abstract: >-
+  Reference implementation of the Agentic Governance Ribbon (AI-GR) framework
+  and the Governance Provenance Record (GPR) specification. AI-GR is a
+  provenance-first governance framework for agentic AI, organized as a five-
+  lifecycle-gate by three-risk-tier matrix that produces a cryptographically
+  attested, append-only audit ribbon mappable to seventeen regulatory regimes
+  spanning AI-specific, sectoral, data-protection, cybersecurity, and
+  platform-governance law.
+authors:
+  - family-names: Singh
+    given-names: Anil
+    affiliation: "Independent practitioner; Carnegie Mellon University, Heinz College — CAIO Program"
+version: "0.2.0"
+date-released: "2026-05-18"
+license: "Apache-2.0"
+repository-code: "https://github.com/anilscorpio82/ai-gr"
+url: "https://ai-gr.dev"
+keywords:
+  - "agentic AI"
+  - "AI governance"
+  - "provenance"
+  - "EU AI Act"
+  - "GDPR"
+  - "NIST AI RMF"
+  - "ISO 42001"
+  - "HIPAA"
+  - "cryptographic attestation"
+  - "vendor-neutral"
+preferred-citation:
+  type: article
+  title: "The Agentic Governance Ribbon: A Provenance-First Framework for Governing Agentic AI Across Regulatory Regimes"
+  authors:
+    - family-names: Singh
+      given-names: Anil
+      affiliation: "Independent practitioner; Carnegie Mellon University, Heinz College — CAIO Program"
+  year: 2026
+  month: 5
+  doi: "10.5281/zenodo.XXXXXXX"
+  url: "https://doi.org/10.5281/zenodo.XXXXXXX"
+  notes: "Working paper v1.4, May 2026. Replace XXXXXXX with the actual Zenodo record ID after upload."

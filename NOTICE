@@ -1,0 +1,29 @@
+AI-GR — Agentic Governance Ribbon
+Copyright 2026 Anil Singh
+
+Originator and architect: Anil Singh
+First public introduction: May 2026
+Framework name "Agentic Governance Ribbon" and the short form "AI-GR":
+  originated by Anil Singh. US trademark application pending (Class 42).
+
+The terms "Governance Provenance Record" and "GPR" are used in this
+implementation and specification as descriptive technical vocabulary,
+not as claimed trademarks. They are open vocabulary within the AI-GR
+ecosystem and may be used freely by downstream implementations.
+
+This reference implementation is licensed under the Apache License,
+Version 2.0 (see LICENSE). The framework specification (docs/schema_spec.md)
+is licensed under CC BY 4.0.
+
+The framework concept — including the Ribbon construct (five lifecycle
+gates × three risk tiers), the regime-mapping methodology, and the GPR
+artifact specification — is intellectual property of Anil Singh.
+
+Citation:
+
+  Singh, Anil (2026). "The Agentic Governance Ribbon (AI-GR): Provenance-First
+  Governance for Agentic AI." Reference implementation v0.1, May 2026.
+  https://ai-gr.dev
+
+This product includes software developed by Anil Singh as the originator
+and primary contributor of the framework and reference implementation.

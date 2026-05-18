@@ -1,0 +1,68 @@
+site_name: AI-GR
+site_description: The Agentic Governance Ribbon — reference implementation documentation
+site_url: https://ai-gr.dev
+repo_url: https://github.com/anilscorpio82/ai-gr
+repo_name: anilscorpio82/ai-gr
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Concepts:
+      - The Ribbon: concepts/ribbon.md
+      - Governance Provenance Record: concepts/gpr.md
+      - Risk Tiers: concepts/risk-tiers.md
+  - Reference:
+      - Schema Specification: schema_spec.md
+      - Architecture: architecture.md
+      - Standards Conformance: standards.md
+  - Regulatory Mapping:
+      - Overview: regimes/overview.md
+      - EU AI Act: regimes/eu-ai-act.md
+      - GDPR: regimes/gdpr.md
+  - Adapters:
+      - Sigstore: adapters/sigstore.md
+      - OPA: adapters/opa.md
+      - OpenTelemetry: adapters/otel.md
+  - Verification: verification.md
+  - Comparison with Atlas and OVERT: comparison.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/anilscorpio82/ai-gr
